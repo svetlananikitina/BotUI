@@ -55,8 +55,8 @@ function submitMessage (event) {
 
 
 
-var serverURL = 'https://sleepy-sierra-80270.herokuapp.com/'
-// var serverURL = 'http://localhost:5000/'
+// var serverURL = 'https://sleepy-sierra-80270.herokuapp.com/'
+var serverURL = 'http://localhost:5000/'
 
 //send the message to bot
 function sendToBot (message) {
