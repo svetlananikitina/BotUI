@@ -72,7 +72,14 @@ function sendToBot (message) {
                 sessionId: sessionId})
         })
         .then(r=> r.json())
-        .then(j => console.log(j))
+        //.then(j => console.log(j)
+        .then( function (j) {
+                console.log(j);
+                alert('recieved answ from wit bot');
+            }
+
+
+        )
 
         // .then(function(body) {
         // console.log(body);
