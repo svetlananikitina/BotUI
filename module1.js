@@ -87,7 +87,7 @@ function sendToBot (message) {
                     if (body.entities.location  && body.entities.location[0].value) {
 
                         var elem = document.createElement("img");
-                        elem.setAttribute("src", "https://s.inyourpocket.com/gallery/107415.jpg");
+                        elem.setAttribute("src", "https://media-cdn.tripadvisor.com/media/photo-s/01/13/e0/26/driving-through-the-dolomites.jpg");
                         elem.setAttribute("height", "768");
                         elem.setAttribute("width", "1024");
                         elem.setAttribute("alt", "place");
