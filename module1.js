@@ -75,7 +75,25 @@ function sendToBot (message) {
         //.then(j => console.log(j)
         .then( function (j) {
                 console.log(j);
-                alert('recieved answ from wit bot');
+                // alert('recieved answ from wit bot');
+                var body = JSON.parse(j);
+
+                if (body.type === 'msg') {
+                    // res.send(body.msg)
+                    document.getElementById("messages").innerHTML = "Recieved answ from wit";
+                }
+                if (body.type === 'action' && body.action === 'show_place') {
+                    if (body.entities.location  && body.entities.location[0].value) {
+                        document.getElementById("pictures").innerHTML = "We call pictures";
+                        
+                        // res.send('receive-message', ['https://s.inyourpocket.com/gallery/107415.jpg',
+                        //     'https://media-cdn.tripadvisor.com/media/photo-s/01/1a/aa/11/magestic-view-on-swisloch.jpg',
+                        //     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2N6AugSaEYx-d75dO-PTzONhmNdWGQ-fUOPfIuyITw9CDYnWy7w'])
+                    }
+
+                }
+
+
             }
 
 
