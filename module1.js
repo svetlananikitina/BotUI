@@ -81,11 +81,13 @@ function sendToBot (message) {
 
                 if (body.type === 'msg') {
                     // res.send(body.msg)
-                    document.getElementById("messages").innerHTML = "Recieved answ from wit"+body.msg;
+                    document.getElementById("messages").innerHTML = "Recieved answer from WitBot "+body.msg;
                 }
                 if (body.type === 'action' && body.action === 'show_place') {
                     if (body.entities.location  && body.entities.location[0].value) {
-                        document.getElementById("pictures").innerHTML = "We call google pictures";
+                        document.getElementById("pictures").innerHTML = ['https://s.inyourpocket.com/gallery/107415.jpg',
+                            'https://media-cdn.tripadvisor.com/media/photo-s/01/1a/aa/11/magestic-view-on-swisloch.jpg',
+                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2N6AugSaEYx-d75dO-PTzONhmNdWGQ-fUOPfIuyITw9CDYnWy7w'];
 
                         // res.send('receive-message', ['https://s.inyourpocket.com/gallery/107415.jpg',
                         //     'https://media-cdn.tripadvisor.com/media/photo-s/01/1a/aa/11/magestic-view-on-swisloch.jpg',
