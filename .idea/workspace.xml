@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9019d830-cd3f-49d4-b8f4-711b87bbcc43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,7 +20,7 @@
       <file leaf-file-name="module1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1048">
+            <state relative-caret-position="194">
               <caret line="87" column="47" lean-forward="true" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
               <folding />
             </state>
@@ -31,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="277">
+              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -71,7 +70,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="53" />
+    <option name="x" value="27" />
+    <option name="y" value="105" />
     <option name="width" value="1338" />
     <option name="height" value="817" />
   </component>
@@ -221,15 +221,15 @@
       <updated>1498062226854</updated>
       <workItem from="1498062232248" duration="6138000" />
       <workItem from="1498830862906" duration="2403000" />
-      <workItem from="1499064195609" duration="25879000" />
+      <workItem from="1499064195609" duration="27057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34420000" />
+    <option name="totallyTimeSpent" value="35598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="53" width="1338" height="817" extended-state="0" />
+    <frame x="27" y="105" width="1338" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962631" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -299,7 +299,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1048">
+        <state relative-caret-position="194">
           <caret line="87" column="47" lean-forward="true" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
           <folding />
         </state>
@@ -307,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="277">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
