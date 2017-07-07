@@ -88,8 +88,8 @@ function sendToBot (message) {
 
                         var elem = document.createElement("img");
                         elem.setAttribute("src", "https://media-cdn.tripadvisor.com/media/photo-s/01/13/e0/26/driving-through-the-dolomites.jpg");
-                        elem.setAttribute("height", "768");
-                        elem.setAttribute("width", "1024");
+                        elem.setAttribute("height", "400");
+                        elem.setAttribute("width", "600");
                         elem.setAttribute("alt", "place");
                         document.getElementById("pictures").appendChild(elem);
                     }
