@@ -84,6 +84,7 @@ function sendToBot (message) {
                     // document.getElementById("list-group").innerHTML = "Recieved answer from WitBot: "+body.msg;
 
                     var node = document.createElement("LI");
+
                     var textnode = document.createTextNode("Bot responds: " + body.msg);
                     node.appendChild(textnode);
                     document.getElementById("list-group").appendChild(node);
