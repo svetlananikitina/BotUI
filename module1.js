@@ -38,14 +38,21 @@ function submitMessage (event) {
     if (event.keyCode == 13 || event.which == 13) {
         //alert("This text we send to Bot");
         var message = event.target.value;
-        console.log(message)
+        console.log(message);
         sendToBot(message)
+
         // var messages = this.state.messages;
         // messages.push(message);
         // this.state.socket.emit("new-message", [message, session_id]);
 
         // xhttp.open("POST", "https://sleepy-sierra-80270.herokuapp.com/", true);
         // xhttp.send();
+        var userinput = document.createElement("LI");
+        var usertext = document.createTextNode(message);
+        userinput.appendChild(usertext);
+        userinput.setAttribute("class","list-group-item");
+        document.getElementById("list-group").appendChild(userinput);
+
 
     }
     else {
