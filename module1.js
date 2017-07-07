@@ -83,8 +83,21 @@ function sendToBot (message) {
                     // res.send(body.msg)
                     document.getElementById("list-group").innerHTML = "Recieved answer from WitBot: "+body.msg;
 
+                    let messages = ['fisrt msg', 'second', 'third'];
 
+                    return messages.map(function(body) {
+                        let li = createNode('li'), //create elements we need to display
+                            span = createNode('span');
+                        let ul = document.getElementById('messages');
+
+                        console.log(body);
+
+                        span.innerHTML = "response is : "+ body;
+                        append (li, span);
+                        append (ul, li);
+                    })
                 }
+
                 if (body.type === 'action' && body.action === 'show_place') {
                     if (body.entities.location  && body.entities.location[0].value) {
 
