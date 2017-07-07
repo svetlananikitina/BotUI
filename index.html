@@ -14,14 +14,12 @@
             background-color: #c5dbfb;
             /*box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);*/
         }
-        ul {
-            background: #fff;
-            padding: 20px;
-            position: absolute;
-            maxHeight: 300;
-            overflow: auto
+        /*ul {*/
+            /*background: #fff;*/
+            /*maxHeight: 300;*/
+            /*overflow: auto*/
 
-        }
+        /*}*/
     </style>
 
 </head>
@@ -29,16 +27,20 @@
 
 <body>
 <h1>Chat Bot</h1>
-<input type ="text" id="messageForBot" placeholder="Type here to send message to the Bot">
 
-<!--<p>-->
-    <!--<input type ="button" onClick="submitMessage()" id="idbtn2" value="Submit message">-->
-<!--</p>-->
-<div>
-    <ul id="list-group" style="overflow: auto" >
+<div className="col-xs-6 col-md-3">
+    <ul id="list-group" className="list-group" style="overflow: auto"} >
     </ul>
 
 </div>
+
+<div className="input-group">
+<input className="form-control" type ="text" id="messageForBot" placeholder="Type here to send message to the Bot">
+</div>
+<!--<p>-->
+    <!--<input type ="button" onClick="submitMessage()" id="idbtn2" value="Submit message">-->
+<!--</p>-->
+
 
 <div id="pictures"></div>
 
