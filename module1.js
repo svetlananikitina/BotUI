@@ -81,7 +81,9 @@ function sendToBot (message) {
 
                 if (body.type === 'msg') {
                     // res.send(body.msg)
-                    document.getElementById("messages").innerHTML = "Recieved answer from WitBot: "+body.msg;
+                    document.getElementById("list-group").innerHTML = "Recieved answer from WitBot: "+body.msg;
+
+
                 }
                 if (body.type === 'action' && body.action === 'show_place') {
                     if (body.entities.location  && body.entities.location[0].value) {
