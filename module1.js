@@ -87,7 +87,7 @@ function sendToBot (message) {
 
                     var textnode = document.createTextNode("Bot responds: " + body.msg);
                     node.appendChild(textnode);
-                    node.setAttribute("class","list-group-item");
+                    node.setAttribute("class","list-group-item list-group-item-info");
                     document.getElementById("list-group").appendChild(node);
 
                     // let messages = ['fisrt msg', 'second', 'third'];
