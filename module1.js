@@ -81,7 +81,12 @@ function sendToBot (message) {
 
                 if (body.type === 'msg') {
                     // res.send(body.msg)
-                    document.getElementById("list-group").innerHTML = "Recieved answer from WitBot: "+body.msg;
+                    // document.getElementById("list-group").innerHTML = "Recieved answer from WitBot: "+body.msg;
+
+                    var node = document.createElement("LI");
+                    var textnode = document.createTextNode("First msg");
+                    node.appendChild(textnode);
+                    document.getElementById("list-group").appendChild(node);
 
                     // let messages = ['fisrt msg', 'second', 'third'];
                     //
