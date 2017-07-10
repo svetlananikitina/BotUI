@@ -13,15 +13,37 @@
 
     <style>
         body {
-            background-color: #c5dbfb;
+            /*background-color: #c5dbfb;*/
+            background-color: #f2f2f2;
             /*box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);*/
         }
         h1 {
             color: white;
             text-align: center;
             text-transform: uppercase;
+            font-size: 3.2em;
+            font-style: inherit;
+            display: block;
         }
-
+        .top_menu {
+            background-color: #098dff;
+            /*background-image: url('logo_bot.jpg');*/
+            width: 100%;
+            padding: 20px 0 15px;
+            box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        }
+        .banner {
+            /*background-image: linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url(images/oldcityparis1.jpg);*/
+            background-image: linear-gradient(to top, rgba(235, 242, 255, 0.21), rgba(9, 141, 255, 0.3)), url(images/oldcityparis1.jpg);
+            background-position: center center;
+            background-size: cover;
+            color: #fff;
+            position: relative;
+            text-align: center;
+            height: 280px;
+            margin-top: 0px;
+            margin-bottom: 60px;
+        }
 
 
         .chat_window {
@@ -50,7 +72,12 @@
 
 
 <body>
-<h1> StoryBot </h1>
+<div class="banner">
+
+    <h1> StoryBot </h1>
+
+</div>
+
 
 <div>
     <div class="col-xs-6 col-md-3">

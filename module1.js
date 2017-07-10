@@ -29,8 +29,8 @@
 // }
 var sessionId = Math.random().toString(36).substring(7);
 
-
 var d = document.getElementById("messageForBot");
+
 
 d.addEventListener("keypress", submitMessage);
 
@@ -115,13 +115,15 @@ function sendToBot (message) {
                 if (body.type === 'action' && body.action === 'show_place') {
                     if (body.entities.location  && body.entities.location[0].value) {
 
-                        var elem = document.createElement("img");
-                        elem.setAttribute("src", "https://media-cdn.tripadvisor.com/media/photo-s/01/13/e0/26/driving-through-the-dolomites.jpg");
-                        elem.setAttribute("height", "200");
-                        elem.setAttribute("width", "200");
-                        elem.setAttribute("alt", "place");
-                        elem.setAttribute("class","img-thumbnail");
-                        document.getElementById("pictures").appendChild(elem);
+
+                        var image = document.createElement("img");
+                        // image.setAttribute("src", "elem.link");
+                        image.setAttribute("src", "https://media-cdn.tripadvisor.com/media/photo-s/01/13/e0/26/driving-through-the-dolomites.jpg");
+                        image.setAttribute("height", "200");
+                        image.setAttribute("width", "200");
+                        image.setAttribute("alt", "place");
+                        image.setAttribute("class","img-thumbnail");
+                        document.getElementById("pictures").appendChild(image);
                     }
 
                 }
